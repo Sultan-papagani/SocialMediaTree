@@ -1,0 +1,75 @@
+.root
+{
+    background-color: #141414;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.rootContainer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.card{
+    background-color: #1F1F1F;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    line-height: 0rem;
+}
+
+.card h1
+{
+    font-weight: 700;
+}
+
+.profilFoto{
+    margin-bottom: 1.5rem;
+    border-radius: 100%;
+    max-width: 120px;
+}
+
+.location{
+    color: #C4F82A;
+    font-weight: 600;
+}
+
+.m1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.shareButton{
+    background-color: #333333;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    width: 90%;
+    margin-bottom: 1rem;
+    transition: 0.1s;
+}
+
+.shareButton:hover{
+    background-color: #C4F82A;
+    color: black;
+    transition: 0.2s ease-in;
+    transform: translate(2px, -5px);
+}
