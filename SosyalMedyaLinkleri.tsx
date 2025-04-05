@@ -10,7 +10,7 @@ function SosyalMedyaLinkleri(){
         if (window.history.length > 1 && document.referrer) {
           navigate(-1);
         } else {
-          navigate('/Odevler'); // Navigate to the home page
+          navigate('/Odevler'); 
         }
     };
 
